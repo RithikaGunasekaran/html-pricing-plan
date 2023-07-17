@@ -1,0 +1,58 @@
+body{
+    font-family: sans-serif;
+    
+.pricing-container{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 100px;
+    height: 50vh;
+    gap: 2rem;
+}
+.pricing-plan{
+flex: 1;
+background-color: black;
+border-radius: 10px;
+padding: 25px;
+text-align: center;
+max-width: 300px;
+}
+.plan-title{
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(177, 9, 255));
+    border-radius: 5px;
+   
+}
+.subs{
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: rgb(157, 21, 247);
+    font-weight: bold;
+}
+.features{
+    color: white;
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+}
+.features li{
+    margin-bottom: 20px;
+}
+.pbutton{
+    border-width: 7px;
+    border-radius: 5px;
+    border-color: rgb(183, 0, 255) ;
+    color: rgb(183, 0, 255);
+    padding: 10px;
+    background-color: black;
+}
+@media(max-width: 1250px){
+    .pricing-container{
+        flex-direction: column;
+        height: 100%;
+    }
+}
